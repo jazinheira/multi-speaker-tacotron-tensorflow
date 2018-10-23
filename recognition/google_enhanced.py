@@ -18,7 +18,7 @@ def text_recognition(path, config):
             out = json.loads(open(txt_path).read())
             return out
 
-    from google.cloud import speech_v1p1beta1 as speech
+    from google.cloud import speech
     from google.cloud.speech import enums
     from google.cloud.speech import types
 
